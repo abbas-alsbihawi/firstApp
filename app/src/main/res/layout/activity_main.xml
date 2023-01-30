@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    >
+
+    <TextView
+        android:id="@+id/txtEventName"
+        android:layout_width="0dp"
+        android:layout_weight="1"
+        android:layout_height="wrap_content"
+        android:text="hi abbas i learing android development by kotlin and xml"
+        android:background="#fdac"
+        android:ellipsize="marquee"
+        android:marqueeRepeatLimit="marquee_forever"
+        android:scrollHorizontally="true"
+        android:singleLine="true"
+        android:gravity="center"
+        android:layout_gravity="center"
+        />
+    <TextView
+        android:layout_weight="1"
+        android:layout_width="0px"
+        android:layout_height="wrap_content"
+        android:text="abbasa"
+        android:gravity="center"
+        android:background="#009688"
+        android:layout_gravity="bottom"
+        />
+    <TextView
+        android:layout_weight="1"
+        android:layout_width="0px"
+        android:layout_height="wrap_content"
+        android:text="abbas"
+        android:gravity="center"
+        android:layout_gravity="top"
+        android:background="#E91E63"
+        />
+</LinearLayout>
